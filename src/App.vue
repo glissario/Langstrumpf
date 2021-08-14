@@ -18,5 +18,23 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 2rem;
+  background-color: #f4f1de;
+}
+html {
+  background-color: #f4f1de;
+  font-size: 20px;
+  min-width: 360px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
 }
 </style>

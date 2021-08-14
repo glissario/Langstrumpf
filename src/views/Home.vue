@@ -1,6 +1,6 @@
 <template>
   <h1>Projekt Langstrumpf</h1>
-  <div class="app">
+  <div class="item-world">
     <flip-card class="items span2 color1" front="" back="✅✅✅" image="!"
       ><img src="@/assets/logo.png"
     /></flip-card>
@@ -55,7 +55,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.app {
+.item-world {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
@@ -78,5 +78,16 @@ export default {
 }
 .color3 {
   background-color: #81b29a;
+}
+
+@media screen and (max-width: 1024px) {
+  .item-world {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 768px) {
+  .item-world {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 </style>
