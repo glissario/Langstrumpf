@@ -72,13 +72,8 @@ export default {
 
 <style lang="scss" scoped>
 .header {
-  background: linear-gradient(
-    90deg,
-    hsla(37, 79%, 75%, 1) 0%,
-    hsla(37, 79%, 75%, 1) 30%,
-    hsla(13, 68%, 63%, 1) 75%
-  );
-  margin: 0 2rem;
+  padding: 5rem 2rem;
+  color: #e07a5f;
 }
 .item-world {
   display: grid;
