@@ -5,6 +5,7 @@
 <script>
 export default {
   name: "App",
+  title: "Projekt Langstrumpf",
   components: {},
 };
 </script>
