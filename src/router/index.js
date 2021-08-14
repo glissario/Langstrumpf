@@ -7,7 +7,11 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: "",
+      path: "/",
+      redirect: "/home",
+    },
+    {
+      path: "/",
       redirect: "/home",
     },
     {
