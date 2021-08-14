@@ -73,12 +73,16 @@ export default {
 <style lang="scss" scoped>
 .header {
   padding: 5rem 2rem;
+  margin: 2rem;
+  margin-bottom: 0;
   color: #e07a5f;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 .item-world {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: 1rem 2rem;
+  margin: 0rem 2rem;
 
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
