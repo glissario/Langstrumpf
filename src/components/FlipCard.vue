@@ -5,6 +5,7 @@
       <slot
         v-if="(back === '' && this.flipped) || (front === '' && !this.flipped)"
       ></slot>
+      <img class="click" src="@/assets/click.png" />
     </div>
   </transition>
 </template>
@@ -56,13 +57,10 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 100%;
-  background-color: #51aae5;
   border-radius: 0;
   cursor: pointer;
   color: #fff;
-  font-weight: 600;
+  font-weight: 450;
   font-size: 1.5rem;
   -webkit-box-shadow: 9px 10px 22px -8px rgba(209, 193, 209, 0.5);
   -moz-box-shadow: 9px 10px 22px -8px rgba(209, 193, 209, 0.5);
@@ -72,6 +70,7 @@ export default {
 
 .card:hover {
   transform: scale(1.04);
+  z-index: 100;
 }
 
 .flip-enter-active {
@@ -93,9 +92,14 @@ export default {
   position: relative;
 }
 
-label {
-  font-weight: 400;
-  color: #333;
-  margin-right: 10px;
+.click {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 2rem;
+  visibility: hidden;
+  width: 35px;
+}
+.card:hover .click {
+  visibility: visible;
 }
 </style>
