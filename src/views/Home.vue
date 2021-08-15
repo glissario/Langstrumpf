@@ -46,9 +46,9 @@
       <h2>Hört sich interessant an?</h2>
       <p>
         Ja, mich hat die Anzeige angesprochen und ich denke, ich kann euch schon
-        jetzt weiter helfen. Fehlende Erfahrung eines Quereinsteigers mache ich
-        mit Ehrgeiz und den Vorerfahrungen aus der Selbständigkeit wett. Ich
-        habe großes Interesse, euch beim Welt verbessern zu helfen.
+        jetzt weiter helfen. Nutzt das Potential eines Quereinsteigers, meinen
+        Ehrgeiz und die Vorerfahrungen aus der Selbständigkeit. Ich habe großes
+        Interesse, euch beim Welt verbessern zu helfen.
       </p>
     </div>
     <flip-card
