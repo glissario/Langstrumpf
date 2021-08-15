@@ -39,4 +39,9 @@ html {
     font-size: 14px;
   }
 }
+@media screen and (max-width: 425px) {
+  html {
+    font-size: 12px;
+  }
+}
 </style>

@@ -82,6 +82,7 @@ export default {
 .item-world {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  min-width: 300px;
   margin: 0rem 2rem;
 
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
@@ -89,7 +90,7 @@ export default {
 }
 .items {
   box-sizing: border-box;
-  height: 16rem;
+  height: 18rem;
   width: 100%;
   padding: 1rem;
   box-shadow: rgba(215, 215, 223, 0.25) 0px 30px 60px -12px inset,
@@ -148,7 +149,8 @@ export default {
 }
 @media screen and (max-width: 425px) {
   .item-world {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
   }
 }
 </style>
