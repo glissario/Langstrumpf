@@ -15,8 +15,8 @@
     <flip-card
       class="items color2 span2"
       front=""
-      back="In 13 Wochen wurden die Grundlagen modernen Frontend-Programmierens gelehrt, html, css und Javascript standen auf der Tagesordnung."
-      ><img width="200" src="@/assets/BCE.jpeg"
+      back="In 13 Wochen wurden die Grundlagen modernen Frontend-Programmierens gelehrt, html, css und Javascript standen auf der Tagesordnung. #Teamwork war selbstverständlich, aber auch genug Freiraum, sich auszuprobieren"
+      ><img width="200" src="@/assets/BCE2.png"
     /></flip-card>
     <flip-card class="items color2" front="die letzten 2 Wochen" back=""
       ><img width="100" src="@/assets/logo.png"

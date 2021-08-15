@@ -24,7 +24,7 @@ export default {
 html {
   background-color: #f4f1de;
   font-family: "Lato", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   min-width: 360px;
   margin: auto;
 }
