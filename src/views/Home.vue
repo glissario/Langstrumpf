@@ -146,4 +146,9 @@ export default {
     grid-row-start: span 2;
   }
 }
+@media screen and (max-width: 425px) {
+  .item-world {
+    grid-template-columns: 1fr;
+  }
+}
 </style>
