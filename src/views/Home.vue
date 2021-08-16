@@ -53,7 +53,7 @@
     </div>
     <flip-card
       class="items color1"
-      front="💻📧📲"
+      front="my progress💻📧📲:"
       back="https://github.com/glissario/"
       href="https://google.com"
       target="_blank"
