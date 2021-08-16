@@ -55,6 +55,8 @@
       class="items color1"
       front="💻📧📲"
       back="https://github.com/glissario/"
+      href="https://google.com"
+      target="_blank"
     ></flip-card>
   </div>
 </template>
